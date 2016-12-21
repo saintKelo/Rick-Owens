@@ -1,0 +1,66 @@
+/****************
+* Global Design *
+*****************/
+
+ul li, a {
+	list-style-type: none;
+	text-decoration: none;
+	color: #959595;
+}
+/****************
+* Mobile Devices *
+*****************/
+@media (max-width: 600px){
+	.navbar-toggle{
+		float: left;
+	}
+	.navbar-brand > img{
+	height: 1.7em;
+	}
+	.navbar-brand{
+	float: right;
+	}
+	.menu{
+		position: absolute;
+		/* margin-top: 6em; */
+		text-align: left;
+		margin-left: 1.3em;
+		bottom: 10em;
+	}
+	.menuItems{
+		font-size: 4rem;
+		margin-left: -1em;
+		font-weight: bold;
+		line-height: 110%;
+	}
+	.brandName{
+		position: absolute;
+		top: 0;
+		right: 1em;
+	}
+	.homeImage{
+		position: absolute;
+		width: 90%;
+		float: right;
+		margin-left: 1.3em;
+	}
+	.homeImage img {
+		margin: auto;
+		width: 100%;
+		overflow: hidden;
+	}
+	.homeElements{
+	margin: auto;
+	margin-top: 6em;
+	width: 100%;
+	overflow: hidden;
+	/* margin-left: 1em; */
+	}
+
+}
+/****************
+* Global Design *
+*****************/
+/****************
+* Global Design *
+*****************/
