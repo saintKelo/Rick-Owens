@@ -9,6 +9,7 @@ Ideas and Planned Features:
 -full website details with anchor links
 -Lookbook for different outfits of clothing items
 -Simple and Minimalistic
+-All bags and jewelry is OS[one size]
 
 Why?
 
