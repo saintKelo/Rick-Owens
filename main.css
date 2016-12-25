@@ -108,14 +108,10 @@ right: 1em;
 		overflow: hidden;
 	}
 	.homeImage img {
-		
-margin: auto;
-		
-width: 100%;
-		
-overflow: hidden;
-		
-position: relative;
+		margin: auto;
+		width: 100%;
+		overflow: hidden;
+		/* position: relative; */
 	}
 	.homeElements{
 	margin: auto;
