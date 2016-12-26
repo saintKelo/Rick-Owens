@@ -19,7 +19,7 @@ ul li, a {
 /****************
 * Mobile Devices *
 *****************/
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.caption{
 		
 text-align: center;
@@ -58,10 +58,14 @@ width: 100%;
 height: 100%;
 	}
 	.womenHome{
-		width: 80%;
-		/* margin-bottom: 0em; */
-		box-shadow: none;
-		border: 0px none;
+		
+width: 80%;
+		
+/* margin-bottom: 0em; */
+		
+box-shadow: none;
+		
+border: 0px none;
 	}
 
 	.navbar-header{
@@ -119,8 +123,10 @@ right: 1em;
 	.homeImage{
 		position: absolute;
 		width: 90%;
-		margin-left: 1.3em;
+		/* margin-left: 1.3em; */
 		overflow: hidden;
+		display: flex;
+		align-self: center;
 	}
 	.homeImage img {
 		
@@ -130,30 +136,115 @@ width: 100%;
 		
 overflow: hidden;
 		
-/* position: relative; */
+position: fixed;
+		
+padding: 1em;
 	}
 	.homeElements{
 	margin: auto;
-	margin-top: 5em;
+	/* margin-top: 4em; */
 	width: 100%;
 	overflow: hidden;
 	/* margin-left: 1em; */
 	}
 
 }
-@media (min-width: 769px){
-		nav{
-    background-color: white;
+@media (min-width: 768px) and (max-width: 910px){
+	
+	.navbar-header {
+      float: none !important;
+      display: block !important;
+  }
+  .navbar-left {
+      float: left!important;
+  }
+  .navbar-toggle {
+      display: inline-block;
+      float: right !important;
+      position: relative;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none !important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: left;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
 }
+@media (min-width: 768px) and (max-width: 1023px){
+		.caption{
+		
+text-align: center;
+	}
+	div.caption p {
+		
+font-size: 10px;
+	}
+	div.caption h4 {
+		
+font-weight: bold;
+		
+text-transform: uppercase;
+		
+font-size: 14px;
+	}
+	.womenHome.shoes{
+		
+padding: 1.5em;
+	}
+	.womenHome.shoes img {
+	margin-left: 0.5em;
+	}
+	.womenElements{
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+	}
+	.womenHome img {
+		
+width: 100%;
+		
+height: 100%;
+	}
+	.womenHome{
+		
+width: 80%;
+		
+/* margin-bottom: 0em; */
+		
+box-shadow: none;
+		
+border: 0px none;
+	}
+
 	.navbar-header{
 	background-color: white;
-	position: fixed;
+	display: flex;
+	flex-flow: row nowrap;
 	}
 	
 	.navbar-nav{
-		background-color: rgba(255, 255, 255, 1);
-		float: right;
+		background-color: rgba(255, 255, 255, 0.9);
 		display: inline-block;
+		float: right;
 		text-align: center;
 	}
 	.nav>li, .navbar-nav .open .dropdown-menu>li>a {
@@ -167,9 +258,7 @@ overflow: hidden;
 		/* float: left; */
 	}
 	.navbar-brand > img{
-	width: 12em;
-	position: relative;
-	float: left;
+	height: 1.7em;
 	}
 	.navbar-brand{
 	}
@@ -204,10 +293,12 @@ top: 0;
 right: 1em;
 	}
 	.homeImage{
-		position: absolute;
-		width: 90%;
-		margin-left: 1.3em;
+		position: fixed;
+		width: 100%;
 		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		height: 100%;
 	}
 	.homeImage img {
 		
@@ -216,10 +307,12 @@ margin: auto;
 width: 100%;
 		
 overflow: hidden;
+		
+padding: 5em;
 	}
 	.homeElements{
 	margin: auto;
-	margin-top: 6em;
+	/* margin-top: 1em; */
 	width: 100%;
 	overflow: hidden;
 	/* margin-left: 1em; */
@@ -227,8 +320,133 @@ overflow: hidden;
 
 }
 /****************
-* Global Design *
+*Laptops and Up *
 *****************/
+@media (min-width: 1024px){
+		.caption{
+		
+text-align: center;
+	}
+	div.caption p {
+		
+font-size: 10px;
+	}
+	div.caption h4 {
+		
+font-weight: bold;
+		
+text-transform: uppercase;
+		
+font-size: 14px;
+	}
+	.womenHome.shoes{
+		
+padding: 1.5em;
+	}
+	.womenHome.shoes img {
+	margin-left: 0.5em;
+	}
+	.womenElements{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		max-width: 1900px;
+	}
+	.womenHome img {
+		
+width: 100%;
+		
+height: 100%;
+	}
+	.womenHome{
+		width: 80%;
+		/* margin-bottom: 0em; */
+		box-shadow: none;
+		border: 0px none;
+		width: 400px;
+		height: 100%;
+	}
+
+	.navbar-header{
+	background-color: white;
+	display: flex;
+	flex-flow: row nowrap;
+	}
+	
+	.navbar-nav{
+		background-color: rgba(255, 255, 255, 0.9);
+		display: inline-block;
+		float: right;
+		text-align: center;
+	}
+	.nav>li, .navbar-nav .open .dropdown-menu>li>a {
+		/* border-bottom: 1px solid rgba(0, 0, 0, 0.34); */
+		text-align: center;
+		/* font-weight: bold; */
+		font-stretch: expanded;
+		color: #c2b3ab;
+	}
+	.navbar-toggle{
+		/* float: left; */
+	}
+	.navbar-brand > img{
+	height: 1.7em;
+	}
+	.navbar-brand{
+	}
+	.menu{
+		
+position: absolute;
+		
+/* margin-top: 6em; */
+		
+text-align: left;
+		
+margin-left: 1.3em;
+		
+bottom: 10em;
+	}
+	.menuItems{
+		
+font-size: 4rem;
+		
+margin-left: -1em;
+		
+font-weight: bold;
+		
+line-height: 110%;
+	}
+	.brandName{
+		
+position: absolute;
+		
+top: 0;
+		
+right: 1em;
+	}
+	.homeImage{
+		/* position: fixed; */
+		width: 100%;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		height: 100%;
+	}
+	.homeImage img {
+		margin: auto;
+		width: 100%;
+		overflow: hidden;
+		padding: 3em;
+	}
+	.homeElements{
+	margin: auto;
+	margin-top: 4em;
+	width: 100%;
+	overflow: hidden;
+	/* margin-left: 1em; */
+	}
+
+}
 /****************
 * Global Design *
 *****************/
