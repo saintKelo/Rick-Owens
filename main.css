@@ -58,14 +58,10 @@ width: 100%;
 height: 100%;
 	}
 	.womenHome{
-		
-width: 80%;
-		
-margin-bottom: 0em;
-		
-box-shadow: none;
-		
-border: 0px none;
+		width: 80%;
+		/* margin-bottom: 0em; */
+		box-shadow: none;
+		border: 0px none;
 	}
 
 	.navbar-header{
