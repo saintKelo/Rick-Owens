@@ -12,8 +12,9 @@ ul li, a {
 	text-decoration: none;
 	color: #959595;
 }
-.nav.navbar.navbar-fixed-top{
+.navbar{
 	background-color: white;
+	opacity: 0.9;
 }
 /****************
 * Mobile Devices *
