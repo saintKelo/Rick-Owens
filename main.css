@@ -12,41 +12,59 @@ ul li, a {
 	text-decoration: none;
 	color: #959595;
 }
+..navbar{
+	background-color: white;
+}
 /****************
 * Mobile Devices *
 *****************/
 @media (max-width: 768px){
 	.caption{
-		text-align: center;
+		
+text-align: center;
 	}
 	div.caption p {
-		font-size: 10px;
+		
+font-size: 10px;
 	}
 	div.caption h4 {
-		font-weight: bold;
-		text-transform: uppercase;
-		font-size: 14px;
+		
+font-weight: bold;
+		
+text-transform: uppercase;
+		
+font-size: 14px;
 	}
 	.womenHome.shoes{
-		padding: 1.5em;
+		
+padding: 1.5em;
 	}
 	.womenHome.shoes img {
 	margin-left: 0.5em;
 	}
 	.womenElements{
-		display: flex;
-		flex-flow: column wrap;
-		align-items: center;
+		
+display: flex;
+		
+flex-flow: column wrap;
+		
+align-items: center;
 	}
 	.womenHome img {
-		width: 100%;
-		height: 100%;
+		
+width: 100%;
+		
+height: 100%;
 	}
 	.womenHome{
-		width: 80%;
-		margin-bottom: 0em;
-		box-shadow: none;
-		border: 0px none;
+		
+width: 80%;
+		
+margin-bottom: 0em;
+		
+box-shadow: none;
+		
+border: 0px none;
 	}
 
 	.navbar-header{
@@ -108,10 +126,14 @@ right: 1em;
 		overflow: hidden;
 	}
 	.homeImage img {
-		margin: auto;
-		width: 100%;
-		overflow: hidden;
-		/* position: relative; */
+		
+margin: auto;
+		
+width: 100%;
+		
+overflow: hidden;
+		
+/* position: relative; */
 	}
 	.homeElements{
 	margin: auto;
