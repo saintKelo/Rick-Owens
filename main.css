@@ -12,7 +12,7 @@ ul li, a {
 	text-decoration: none;
 	color: #959595;
 }
-..navbar{
+.nav.navbar.navbar-fixed-top{
 	background-color: white;
 }
 /****************
