@@ -323,6 +323,11 @@ padding: 5em;
 *Laptops and Up *
 *****************/
 @media (min-width: 1024px){
+	.lookbook{
+	}
+
+.womenHome.thumbnail.lookbook img {
+}
 		.caption{
 		
 text-align: center;
@@ -353,10 +358,8 @@ padding: 1.5em;
 		max-width: 1900px;
 	}
 	.womenHome img {
-		
-width: 100%;
-		
-height: 100%;
+		width: 100%;
+		height: 100%;
 	}
 	.womenHome{
 		width: 80%;
